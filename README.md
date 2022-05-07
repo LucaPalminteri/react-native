@@ -1,1 +1,3 @@
-# FirstProject
+# First Project with React Native
+
+05/07/22: Today I learn the basics of the library. I read the documentation in the official website of React Native. I was stuck in the process of get the app in my android phone, after a while I could connect the devices. I had left little time, I tryed to do a simple count app with three buttons, then I tryed to do a clock but I had problem with rendering. I have to call it a day because I find myself waiting so long when I broke the code and re-render the app. So for today I think it's more than enough.
