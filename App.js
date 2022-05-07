@@ -25,7 +25,7 @@ export default function App() {
       
       <Text style={styles.text}>Counter</Text>
       <Text style={styles.text}>{min}m :{count}s</Text>
-      {/* <View style={styles.buttons}>
+      <View style={styles.buttons}>
         <Button 
           onPress={()=>{setCount(x=>x-1)}}
           title='-1'
@@ -51,7 +51,7 @@ export default function App() {
           title='+10'
           style={styles.button}
         />
-      </View> */}
+      </View>
 
       <View style={styles.footer}>
         <Text>Footer</Text>
@@ -63,6 +63,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    width: '100%',
+    height: 500,
     display: 'flex',
     justifyContent: 'center',
     alignContent: 'center',
@@ -83,9 +85,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'red'
   },
   footer: {
-    backgroundColor: 'red',
+    backgroundColor: 'blue', 
     position: 'relative',
-    width: '100%',
-    bottom: 0
+    top: 0
   }
 });
